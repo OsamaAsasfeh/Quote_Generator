@@ -55,8 +55,7 @@ To run the project locally, you can follow these steps:
 
 Clone the repository:
 
-Copy code
-git clone https://github.com/your-username/quote-generator.git
+
 
 ## Usage
 
