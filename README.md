@@ -1,4 +1,4 @@
-# Project Title
+# Quote_Generator
 
 This is a web application that generates quotes in Arabic or English languages. It uses an API to fetch the quotes and displays them on the webpage. Users can copy the quote to the clipboard or share it on Twitter.
 
@@ -33,7 +33,7 @@ Quote Generator
 This is a web application that generates quotes in Arabic or English languages. It uses an API to fetch the quotes and displays them on the webpage. Users can copy the quote to the clipboard or share it on Twitter.
 
 Live Demo
-You can see a live demo of the project at https://example.com/quote-generator.
+You can see a live demo of the project at https://osamaasasfeh.github.io/Quote_Generator/.
 
 Features
 Generates random quotes in Arabic or English languages.
@@ -55,8 +55,7 @@ To run the project locally, you can follow these steps:
 
 Clone the repository:
 
-Copy code
-git clone https://github.com/your-username/quote-generator.git
+
 
 ## Usage
 
