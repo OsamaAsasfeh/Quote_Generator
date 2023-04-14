@@ -69,7 +69,7 @@ async function getQuotes() {
       showNewQuote();
       console.log("new quote");
     } catch (error) {
-      alert(error);
+      alert("Internet Connection Problem");
     }
   }
 }

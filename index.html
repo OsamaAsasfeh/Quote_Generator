@@ -30,33 +30,43 @@
     <link rel="apple-touch-icon" href="logo192.png" />
   </head>
   <body>
-    <div class="header">
+    <!-- hadder -->
+    <header class="header">
       <a href="#default" class="logo" aria-label="Go to homepage"
-        >Qoute-Generator /OsamaAsasfeh</a
+        >Qoute-Generator</a
       >
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <!-- <li><a href="#work">Our Work</a></li> -->
+        <li>
+          <select class="active" name="language" id="language">
+            <option value="Arabic"><a class="ar-select">عربي</a></option>
+            <option value="En"><a class="en-select">EN</a></option>
+          </select>
+        </li>
 
-      <div class="header-right">
-        <!-- <a class="active" href="#home">Home</a> -->
-        <select class="active" name="language" id="language">
-          <option value="Arabic"><a class="ar-select">عربي</a></option>
-          <option value="En"><a class="en-select">EN</a></option>
-        </select>
+        <li>
+          <a
+            href="https://github.com/OsamaAsasfeh"
+            aria-label="Go to my GitHub profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/osama-al-asasfeh/"
+            aria-label="Go to my LinkedIn profile"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+      </ul>
+    </header>
 
-        <a
-          href="https://github.com/OsamaAsasfeh"
-          aria-label="Go to my GitHub profile"
-        >
-          <i class="fab fa-github"></i>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/osama-al-asasfeh/"
-          aria-label="Go to my LinkedIn profile"
-        >
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </div>
-    </div>
     <div class="quote-body">
       <div class="quote-container" id="quote-container">
         <!-- Qoute -->
@@ -77,9 +87,11 @@
             >
               <i class="fab fa-twitter"></i>
             </button>
+
             <button class="new-quote" id="copy" aria-label="Copy to Clipboard">
               حفظ
             </button>
+
             <button
               class="new-quote"
               id="new-quote"
